@@ -1,0 +1,179 @@
+@import '../../appearance-colors.css';
+
+#UpvoteFilter .upvote-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 0px 8px;
+}
+
+#UpvoteFilter .upvote-container .sort .dropdown {
+  width: 100%;
+}
+
+#UpvoteFilter .upvote-container .sort .dropdown .dropdown-trigger {
+  width: 100%;
+}
+
+#UpvoteFilter
+  .upvote-container
+  .sort
+  .dropdown
+  .dropdown-trigger
+  .drop-down-button {
+  width: 100%;
+  min-width: initial;
+  max-width: initial;
+  border: none;
+  height: 35px;
+  color: #6f6fa2;
+}
+
+#UpvoteFilter
+  .upvote-container
+  .sort
+  .dropdown
+  .dropdown-trigger
+  .drop-down-button:hover {
+  background-color: #f3f4f6;
+}
+
+#UpvoteFilter
+  .upvote-container
+  .sort
+  .dropdown
+  .dropdown-trigger
+  .drop-down-button:focus {
+  background-color: #f3f4f6;
+}
+
+#UpvoteFilter
+  .upvote-container
+  .sort
+  .dropdown
+  .dropdown-trigger
+  .drop-down-button
+  .for-dropdown {
+  font-family: 'Satoshi-Variable';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0.005em;
+  line-height: 19px;
+}
+
+#UpvoteFilter .upvote-container .search {
+  flex: 1;
+  width: 630px;
+}
+
+#UpvoteFilter .upvote-container .search .input-field .input {
+  align-items: center;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #c3c1cc;
+  border-radius: 0;
+  box-sizing: border-box;
+  color: #110733;
+  display: flex;
+  flex: none;
+  flex-direction: row;
+  font-family: 'Satoshi-Variable';
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0.005em;
+  line-height: 20px;
+  padding: 10px 12px;
+  padding-right: 40px;
+  box-shadow: none;
+}
+
+#UpvoteFilter .upvote-container .search .input-field .input::placeholder {
+  color: #888399;
+}
+
+#UpvoteFilter .upvote-container .search .input-field .input:focus {
+  border-bottom: 1px solid var(--public-view-tags-active-text-color) !important;
+  box-shadow: none;
+}
+
+#UpvoteFilter .upvote-container .filter .dropdown {
+  width: 100%;
+}
+
+#UpvoteFilter .upvote-container .filter .dropdown .dropdown-trigger {
+  width: 100%;
+}
+
+#UpvoteFilter
+  .upvote-container
+  .filter
+  .dropdown
+  .dropdown-trigger
+  .right-drop-down-button {
+  border: none;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: row;
+  font-family: 'Satoshi-Variable';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  height: 35px;
+  justify-content: center;
+  line-height: 19px;
+  text-align: center;
+  width: 78px !important;
+}
+
+#UpvoteFilter
+  .upvote-container
+  .filter
+  .dropdown
+  .dropdown-trigger
+  .right-drop-down-button:focus {
+  background: #f3f4f6 !important;
+}
+
+#UpvoteFilter
+  .upvote-container
+  .filter
+  .dropdown
+  .dropdown-trigger
+  .right-drop-down-button:hover {
+  background: #f3f4f6 !important;
+}
+
+@media screen and (min-width: 600px) {
+  #UpvoteFilter .upvote-container {
+    align-items: center;
+    flex-direction: row;
+    gap: 16px;
+  }
+
+  #UpvoteFilter .upvote-container .sort {
+    width: initial;
+  }
+
+  #UpvoteFilter .upvote-container hr {
+    border: 1px solid #c3c1cc;
+    opacity: 0.2;
+    height: 24px;
+  }
+
+  #UpvoteFilter .upvote-container .filter {
+    width: initial;
+  }
+
+  #UpvoteFilter .upvote-container .filter .dropdown {
+    margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 905px) {
+  #UpvoteFilter {
+    display: flex;
+    justify-content: center;
+  }
+}
